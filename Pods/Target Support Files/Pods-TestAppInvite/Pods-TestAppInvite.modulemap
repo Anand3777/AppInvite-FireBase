@@ -1,0 +1,6 @@
+framework module Pods_TestAppInvite {
+  umbrella header "Pods-TestAppInvite-umbrella.h"
+
+  export *
+  module * { export * }
+}

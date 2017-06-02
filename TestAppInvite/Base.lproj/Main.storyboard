@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestAppInvite" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tP-VI-ZKF">
+                                <rect key="frame" x="163" y="261" width="49" height="30"/>
+                                <state key="normal" title="Sign IN"/>
+                                <connections>
+                                    <action selector="SignINAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xfq-U7-Vwx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPj-9H-HAK">
+                                <rect key="frame" x="169" y="318.5" width="37" height="30"/>
+                                <state key="normal" title="Invite"/>
+                                <connections>
+                                    <action selector="inviteAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XKc-WE-agf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHt-eh-NaW">
+                                <rect key="frame" x="159" y="393" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="39K-os-fIN"/>
+                                </constraints>
+                                <state key="normal" title="Sign out"/>
+                                <connections>
+                                    <action selector="SignOutAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S74-Ru-duV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yHt-eh-NaW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JHZ-97-0tt"/>
+                            <constraint firstItem="fPj-9H-HAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kel-Bu-VfM"/>
+                            <constraint firstItem="yHt-eh-NaW" firstAttribute="top" secondItem="fPj-9H-HAK" secondAttribute="bottom" constant="44.5" id="mox-vP-gmd"/>
+                            <constraint firstItem="5tP-VI-ZKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qbt-Ga-tyd"/>
+                            <constraint firstItem="fPj-9H-HAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s2k-VS-zAN"/>
+                            <constraint firstItem="fPj-9H-HAK" firstAttribute="top" secondItem="5tP-VI-ZKF" secondAttribute="bottom" constant="27.5" id="uXo-mq-kns"/>
+                            <constraint firstItem="fPj-9H-HAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wpD-AY-x8n"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>579725778073-cgjql6on4h8g2g2e3s51nldrte855s2e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.579725778073-cgjql6on4h8g2g2e3s51nldrte855s2e</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>579725778073-9nj2odlpoeclr9p22167qcnd1i34ans6.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC7b3uxa2nx8a1Aa-ju8GkfhvtRAZNFGlY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>579725778073</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.anand.testappinvite</string>
+	<key>PROJECT_ID</key>
+	<string>testappinvite-31dcb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testappinvite-31dcb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:579725778073:ios:41c8b31ce83f9b56</string>
+	<key>DATABASE_URL</key>
+	<string>https://testappinvite-31dcb.firebaseio.com</string>
+</dict>
+</plist>
